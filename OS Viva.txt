@@ -1,0 +1,74 @@
+ Fork system call
+-The fork system is used to create new child process
+
+ Exec system call
+Exec system call is used to replace the program executed by a process
+
+ Nice system call 
+The nice( ) system call allows processes to change their base priority
+
+ Orphan process
+An orphan process are those processes that are still running even through their parent process
+ has terminated or finished
+
+ Clock function
+Clock function is used To measure the time spent in a program,
+
+ CPU Scheduling
+CPU scheduling in OS is a method by which one process is allowed to use the CPU 
+while the other processes are kept on hold or are kept in the waiting state.
+
+ FCFS First Come First Serve
+In this algorithm the order in which process enters th ready queue in same order they will execute on the CPU
+
+ SJF Shortest job first
+In this algorithm job will execute at the cpu according their next CPU Burst time
+
+ PS Priority Scheduling
+In this algorithm the job will execute according to their priority order
+
+ RR Round Robin Scheduling
+This algorithm gives fair chance of execution to each process in system in rotation
+
+ Deadlock
+Deadlock occurs when processes are unable to proceed because each process is waiting
+ for the other process to release a resource.
+
+ Safe state
+A state is safe if the system can allocate all resources requested by all processs
+
+Bankers algorithm is a e
+Resource allocation and deadlock avoidance algorithm which test all the request 
+made by process for resources it checks for the safe state if after granting request system 
+remains in the safe state it allows the request and if there is no safe state it doesn't allow the
+ request made by the process
+
+ Deadlock detection
+Deadlock detection and recovery is the process of detecting and resolving deadlocks in an operating system
+
+ Page replacement algorithm
+∆ Os uses paging for memory management 
+∆ page replacement algorithm is needed to decide which page needs to be replaced when new page comes in
+
+ Page fault
+When process requests some page during execution and that page is not available
+ in physical memory then it is called page fault
+
+ Page replacement
+Page replacement in operating systems refers to the mechanism used to decide
+ which page to remove from the physical memory (RAM) when a new page needs to be brought in.
+
+ FIFO First In First Out
+In this page replacement algorithm the order in which pages are loaded in memory, in same order they are replaced
+
+ LRU Least Recently Used Replacement
+This algorithm replaces that page from physical memory which is used least recently
+
+ OPT Optimal Page Replacement
+In this algorithm page will replace that from the physical memory which will not be required longer time
+
+ A* algorithm
+A*algorithm is a searching algorithm that searches for the shortest path between the initial and final state
+
+ AO* algorithm
+The AO* algorithm is based on AND-OR graphs to break complex problems into smaller ones and then solve them
